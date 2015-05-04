@@ -1,0 +1,17 @@
+.collapse { display: none }
+.collapse.in { display: block }
+.collapsing { position: relative; height: 0; overflow: hidden; -webkit-transition: height .35s ease; -o-transition: height .35s ease; transition:height .35s ease }
+@media (min-width:768px){
+.navbar-collapse.collapse { display: block!important; height: auto!important; padding-bottom: 0; overflow: visible!important; }
+}
+.navbar-toggle { position: relative; float: right; padding: 5px; margin:0px 15px 0px 0px; background-color: transparent; border-radius:4px }
+@media (min-width:480px){
+.navbar-toggle { margin: 25px 15px 0px 0px; }
+}
+.navbar-toggle:focus { outline: 0; }
+.navbar-toggle .icon-bar { display: block; width: 25px; height: 4px; border-radius: 1px; }
+.navbar-toggle .icon-bar+.icon-bar { margin-top: 4px; }
+@media (min-width:768px){ .navbar-toggle { display: none; } }
+.navbar-inverse .navbar-toggle { border: 1px solid #3f3f3f; background: #111111; }
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus { background: #000000; }
+.navbar-inverse .navbar-toggle .icon-bar{ background: #FFFFFF; }

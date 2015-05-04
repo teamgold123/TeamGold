@@ -1,0 +1,186 @@
+/******************************/
+/****** Joomla Templates ******/
+/******************************/
+@media screen and (min-width:1200px){
+#header-outer { height: 105px; }
+#header-inner, #banner-inner, #body-inner, #spacer-inner, #advert-inner, #upper-inner, #bottom-inner, #footer-inner, #copyright-inner { width: 1060px; }
+.logo { height: 85px; }
+#copyright { margin-top: 13px; }
+#designer { margin-top: 13px; }
+#header-background { width: 1030px; height: 85px; padding: 10px 15px; }
+#body-background { padding: 0px 15px; width: 1030px; }
+#advert-background, #footer-background { width: 1030px; padding: 15px 15px 0px 15px; }
+#upper-background, #bottom-background { width: 1030px; padding: 0px 15px; }
+#copyright-background { padding: 10px 15px; }
+}
+@media screen and (min-width:1200px){
+#body-right-only { width: 705px; }
+#body-left-only { width: 705px; }
+#body-left-right { width: 580px; margin-left: 25px; }
+#body-right-center { width: 755px; }
+#body-left-center { width: 755px; }
+#body-left-right-center { width: 580px; margin-left: 25px; }
+}
+@media screen and (min-width:1200px){
+.centerright #layer-right-center { width: 530px; }
+.centerleft #layer-right-center { width: 530px; }
+.centerright #layer-left-center { width: 530px; }
+.centerleft #layer-left-center { width: 530px; }
+.centerright #layer-left-right-center { width: 355px; }
+.centerleft #layer-left-right-center { width: 355px; }
+.centerright #layer-center-only { width: 805px; }
+.centerleft #layer-center-only { width: 805px; }
+}
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+@media screen and (min-width:1200px){
+body { font-size: 15px; line-height: 1.7; }
+h1 { font-size: 25px; }
+h2 { font-size: 23px; }
+h3 { font-size: 21px; }
+h4 { font-size: 19px; }
+h5 { font-size: 17px; }
+form input, form select { font-size: 16px; }
+}
+@media screen and (min-width:1200px){
+.page-header h1, .contact h1 { font-size: 21px; }
+.blog-featured h2, .blog h2, .item-page h2, .contact h2 { font-size: 19px; }
+}
+/******************************/
+/******* Joomla Toolbar *******/
+/******************************/
+@media screen and (min-width:1200px){
+#navigation { margin-top: 20px; }
+#toolbar .menu a { font-size: 16px; }
+#toolbar .menu li { margin-left: 22px; }
+#toolbar .menu li li a { font-size: 15px; }
+#toolbar .menu ul { width: 195px; }
+#toolbar .menu ul li { width: 175px; }
+#toolbar .menu li li li a { font-size: 15px; }
+}
+/******************************/
+/******* Joomla Modules *******/
+/******************************/
+@media screen and (min-width:1200px){
+#body-right-only .cols-3 .column-1, #body-left-only .cols-3 .column-1 { width: 221px; float: left; }
+#body-right-only .cols-3 .column-2, #body-left-only .cols-3 .column-2 { width: 221px; float: left; margin-left: 21px; }
+#body-right-only .cols-3 .column-3, #body-left-only .cols-3 .column-3 { width: 221px; float: right; }
+#body-right-only .cols-2 .column-1, #body-left-only .cols-2 .column-1 { width: 342px; float: left; }
+#body-right-only .cols-2 .column-2, #body-left-only .cols-2 .column-2 { width: 342px; float: right; }
+#body-right-only .cols-1 .column-1, #body-left-only .cols-1 .column-1 { width: 705px; float: left; }
+#body-right-only .cols-4 .column-1, #body-left-only .cols-4 .column-1 { width: 162px; float: left; }
+#body-right-only .cols-4 .column-2, #body-left-only .cols-4 .column-2 { width: 162px; float: left; margin-left: 19px; }
+#body-right-only .cols-4 .column-3, #body-left-only .cols-4 .column-3 { width: 162px; float: left; margin-left: 19px; }
+#body-right-only .cols-4 .column-4, #body-left-only .cols-4 .column-4 { width: 162px; float: right; }
+#body-left-right .cols-3 .column-1 { width: 180px; float: left; }
+#body-left-right .cols-3 .column-2 { width: 180px; float: left; margin-left: 20px; }
+#body-left-right .cols-3 .column-3 { width: 180px; float: right; }
+#body-left-right .cols-2 .column-1 { width: 280px; float: left; }
+#body-left-right .cols-2 .column-2 { width: 280px; float: right; }
+#body-left-right .cols-1 .column-1 { width: 580px; float: left; }
+#body-wide .cols-5 .column-1 { width: 190px; float: left; }
+#body-wide .cols-5 .column-2 { width: 190px; float: left; margin-left: 20px; }
+#body-wide .cols-5 .column-3 { width: 190px; float: left; margin-left: 20px; }
+#body-wide .cols-5 .column-4 { width: 190px; float: left; margin-left: 20px; }
+#body-wide .cols-5 .column-5 { width: 190px; float: right; }
+#body-wide .cols-4 .column-1 { width: 244px; float: left; }
+#body-wide .cols-4 .column-2 { width: 244px; float: left; margin-left: 18px; }
+#body-wide .cols-4 .column-3 { width: 244px; float: left; margin-left: 18px; }
+#body-wide .cols-4 .column-4 { width: 244px; float: right; }
+#body-wide .cols-3 .column-1 { width: 330px; float: left; }
+#body-wide .cols-3 .column-2 { width: 330px; float: left; margin-left: 20px; }
+#body-wide .cols-3 .column-3 { width: 330px; float: right; }
+#body-wide .cols-2 .column-1 { width: 505px; float: left; }
+#body-wide .cols-2 .column-2 { width: 505px; float: right; }
+#body-wide .cols-1 .column-1 { width: 1030px; float: left; }
+#body-right-center .cols-1 .column-1, #body-left-center .cols-1 .column-1 { width: 530px; float: left; }
+#body-right-center .cols-2 .column-1, #body-left-center .cols-2 .column-1 { width: 255px; float: left; }
+#body-right-center .cols-2 .column-2, #body-left-center .cols-2 .column-2 { width: 255px; float: right; }
+#body-center-only .cols-1 .column-1 { width: 805px; float: left; }
+#body-center-only .cols-2 .column-1 { width: 392px; float: left; }
+#body-center-only .cols-2 .column-2 { width: 392px; float: right; }
+#body-center-only .cols-3 .column-1 { width: 255px; float: left; }
+#body-center-only .cols-3 .column-2 { width: 255px; float: left; margin-left: 20px; }
+#body-center-only .cols-3 .column-3 { width: 255px; float: right; }
+#body-center-only .cols-4 .column-1 { width: 187px; float: left; }
+#body-center-only .cols-4 .column-2 { width: 187px; float: left; margin-left: 19px; }
+#body-center-only .cols-4 .column-3 { width: 187px; float: left; margin-left: 19px; }
+#body-center-only .cols-4 .column-4 { width: 187px; float: right; }
+#body-left-right-center .cols-1 .column-1 { width: 355px; float: left; }
+}
+@media screen and (min-width:1200px){
+.advert99 .full, .footer99 .full, .upper99 .full, .bottom99 .full { width: 1030px; float: left; }
+.advert49 .first, .footer49 .first, .upper49 .first, .bottom49 .first { float: left; width: 505px; }
+.advert49 .second, .footer49 .second, .upper49 .second, .bottom49 .second { float: right; width: 505px; }
+.advert33 .first, .footer33 .first, .upper33 .first, .bottom33 .first { float: left; width: 330px; }
+.advert33 .second, .footer33 .second, .upper33 .second, .bottom33 .second { float: left; width: 330px; margin-left: 20px; }
+.advert33 .third, .footer33 .third, .upper33 .third, .bottom33 .third { float: right; width: 330px; }
+.advert24 .first, .footer24 .first, .upper24 .first, .bottom24 .first { float: left; width: 244px; }
+.advert24 .second, .footer24 .second, .upper24 .second, .bottom24 .second { float: left; width: 244px; margin-left: 18px; }
+.advert24 .third, .footer24 .third, .upper24 .third, .bottom24 .third { float: left; width: 244px; margin-left: 18px; }
+.advert24 .forth, .footer24 .forth, .upper24 .forth, .bottom24 .forth { float: right; width: 244px; }
+.advert19 .first, .footer19 .first, .upper19 .first, .bottom19 .first { float: left; width: 190px; }
+.advert19 .second, .footer19 .second, .upper19 .second, .bottom19 .second { float: left; width: 190px; margin-left: 20px; }
+.advert19 .third, .footer19 .third, .upper19 .third, .bottom19 .third { float: left; width: 190px; margin-left: 20px; }
+.advert19 .forth, .footer19 .forth, .upper19 .forth, .bottom19 .forth { float: left; width: 190px; margin-left: 20px; }
+.advert19 .fifth, .footer19 .fifth, .upper19 .fifth, .bottom19 .fifth { float: right; width: 190px; }
+}
+@media screen and (min-width:1200px){
+#user-right-only .user99 .full, #user-left-only .user99 .full { float: left; width: 705px; }
+#user-right-only .user49 .first, #user-left-only .user49 .first { float: left; width: 342px; }
+#user-right-only .user49 .second, #user-left-only .user49 .second { float: right; width: 342px; }
+#user-right-only .user33 .first, #user-left-only .user33 .first { float: left; width: 221px; }
+#user-right-only .user33 .second, #user-left-only .user33 .second { float: left; width: 221px; margin-left: 21px; }
+#user-right-only .user33 .third, #user-left-only .user33 .third { float: right; width: 221px; }
+#user-left-right .user33 .first { float: left; width: 180px; }
+#user-left-right .user33 .second { float: left; width: 180px; margin-left: 20px; }
+#user-left-right .user33 .third { float: right; width: 180px; }
+#user-left-right .user49 .first { float: left; width: 280px; }
+#user-left-right .user49 .second { float: right; width: 280px; }
+#user-left-right .user99 .full { float: left; width: 580px; }
+#user-wide .user99 .full { float: left; width: 1030px; }
+#user-wide .user49 .first { float: left; width: 505px; }
+#user-wide .user49 .second { float: right; width: 505px; }
+#user-wide .user33 .first { float: left; width: 330px; }
+#user-wide .user33 .second { float: left; width: 330px; margin-left: 20px; }
+#user-wide .user33 .third { float: right; width: 330px; }
+#user-center-only .user99 .full { float: left; width: 1030px; }
+#user-center-only .user49 .first { float: left; width: 505px; }
+#user-center-only .user49 .second { float: right; width: 505px; }
+#user-center-only .user33 .first { float: left; width: 330px; }
+#user-center-only .user33 .second { float: left; width: 330px; margin-left: 20px; }
+#user-center-only .user33 .third { float: right; width: 330px; }
+#user-right-center .user99 .full, #user-left-center .user99 .full { float: left; width: 755px; }
+#user-right-center .user49 .first, #user-left-center .user49 .first { float: left; width: 367px; }
+#user-right-center .user49 .second, #user-left-center .user49 .second { float: right; width: 367px; }
+#user-right-center .user33 .first, #user-left-center .user33 .first { float: left; width: 239px; }
+#user-right-center .user33 .second, #user-left-center .user33 .second { float: left; width: 239px; margin-left: 19px; }
+#user-right-center .user33 .third, #user-left-center .user33 .third { float: right; width: 239px; }
+#user-left-right-center .user99 .full { float: left; width: 580px; }
+#user-left-right-center .user49 .first { float: left; width: 280px; }
+#user-left-right-center .user49 .second { float: right; width: 280px; }
+#user-left-right-center .user33 .first { float: left; width: 180px; }
+#user-left-right-center .user33 .second { float: left; width: 180px; margin-left: 20px; }
+#user-left-right-center .user33 .third { float: right; width: 180px; }
+}
+@media screen and (min-width:1200px){
+#inside-right-only .inside49 .first, #inside-left-only .inside49 .first { float: left; width: 342px; }
+#inside-right-only .inside49 .second, #inside-left-only .inside49 .second { float: right; width: 342px; }
+#inside-right-only .inside99 .full, #inside-left-only .inside99 .full { float: left; width: 705px; }
+#inside-left-right .inside49 .first { float: left; width: 280px; }
+#inside-left-right .inside49 .second { float: right; width: 280px; }
+#inside-left-right .inside99 .full { float: left; width: 580px; }
+#inside-wide .inside49 .first { float: left; width: 505px; }
+#inside-wide .inside49 .second { float: right; width: 505px; }
+#inside-wide .inside99 .full { float: left; width: 1030px; }
+#inside-right-center .inside49 .first, #inside-left-center .inside49 .first { float: left; width: 255px; }
+#inside-right-center .inside49 .second, #inside-left-center .inside49 .second { float: right; width: 255px; }
+#inside-right-center .inside99 .full, #inside-left-center .inside99 .full { float: left; width: 530px; }
+#inside-left-right-center .inside49 .first { float: left; width: 167px; }
+#inside-left-right-center .inside49 .second { float: right; width: 167px; }
+#inside-left-right-center .inside99 .full { float: left; width: 355px; }
+#inside-center-only .inside49 .first { float: left; width: 392px; }
+#inside-center-only .inside49 .second { float: right; width: 392px; }
+#inside-center-only .inside99 .full { float: left; width: 805px; }
+}

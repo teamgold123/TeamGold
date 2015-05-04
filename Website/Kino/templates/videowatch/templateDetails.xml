@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+<name>Video Watch</name>
+<version>1.0</version>
+<creationDate>February 2015</creationDate>
+<author>JoomlaSaver</author>
+<authorEmail>mail@joomlasaver.com</authorEmail>
+<authorUrl>http://www.joomlasaver.com</authorUrl>
+<copyright>JoomlaSaver 2013</copyright>
+<license>GNU/GPL</license>
+<description><![CDATA[<div style="border:1px solid #c0c0c0; padding:15px; text-align:center;">Video Watch<br />Joomla 3x Templates<br />GNU/GPL License<br /><br />Visit <a href="http://www.joomlasaver.com">JoomlaSaver</a><br />Contact <a href="mailto:mail@joomlasaver.com">JoomlaSaver</a></div>]]></description>
+<files>
+<filename>index.php</filename>
+<filename>error.php</filename>
+<filename>params.ini</filename>
+<filename>templateDetails.xml</filename>
+<filename>template_preview.png</filename>
+<filename>template_thumbnail.png</filename>
+<filename>favicon.ico</filename>
+<folder>framework</folder>
+<folder>images</folder>
+<folder>html</folder>
+<folder>css</folder>
+<folder>js</folder>
+</files>
+<positions>
+<position>toolbar</position>
+<position>banner</position>
+<position>left</position>
+<position>right</position>
+<position>user1</position>
+<position>user2</position>
+<position>user3</position>
+<position>user4</position>
+<position>user5</position>
+<position>user6</position>
+<position>user7</position>
+<position>user8</position>
+<position>user9</position>
+<position>footer1</position>
+<position>footer2</position>
+<position>footer3</position>
+<position>footer4</position>
+<position>footer5</position>
+</positions>
+<config>
+<fields name="params">
+<fieldset name="Basic" label="TEMPLATE CONFIGURATION ">
+<field name="logo" type="media" label=" SELECT LOGO" default="templates/videowatch/images/logo.png" />
+<field name="responsive" type="radio" default="yes" class="btn-group btn-group-yesno" label="RESPONSIVE">
+<option value="yes"> YES</option>
+<option value="no"> NO</option>
+</field>
+<field name="fontfamily" type="list" default="fontfamily1" label="FONT FAMILY">
+<option value="fontfamily1"> ARIAL</option>
+<option value="fontfamily2"> TIMES NEW ROMAN</option>
+<option value="fontfamily3"> COURIER NEW</option>
+<option value="fontfamily4"> GEORGIA</option>
+<option value="fontfamily5"> VERDANA</option>
+<option value="fontfamily6"> GENEVA</option>
+<option value="fontfamily7"> BOOK ANTIQUA</option>
+</field>
+<field name="expand" type="list" default="no" label=" WEBSITE WIDTH">
+<option value="no"> 960PX</option>
+<option value="yes"> 1060PX</option>
+<option value="true"> 1240PX</option>
+</field>
+<field name="showheader" type="radio" default="yes" class="btn-group btn-group-yesno" label=" SHOW HEADER">
+<option value="yes"> YES</option>
+<option value="no"> NO</option>
+</field>
+<field name="copyright" type="text" default="" label=" COPYRIGHT" />
+</fieldset>
+<fieldset name="advance" label="ADVANCE CONFIGURATION ">
+<field name="jqueryactive" type="radio" default="no" class="btn-group btn-group-yesno" label=" ACTIVATE JQUERY">
+<option value="yes"> YES</option>
+<option value="no"> NO</option>
+</field>
+<field name="unsetjoomjs" type="radio" default="no" class="btn-group btn-group-yesno" label=" UNSET JOOMLA JS">
+<option value="yes"> YES</option>
+<option value="no"> NO</option>
+</field>
+<field name="unsetmootools" type="radio" default="yes" class="btn-group btn-group-yesno" label=" UNSET MOOTOOLS">
+<option value="yes"> YES</option>
+<option value="no"> NO</option>
+</field>
+<field name="unsetbootstrap" type="radio" default="yes" class="btn-group btn-group-yesno" label=" UNSET BOOTSTRAP">
+<option value="yes"> YES</option>
+<option value="no"> NO</option>
+</field>
+<field name="unsetjquerymin" type="radio" default="no" class="btn-group btn-group-yesno" label=" UNSET JQUERY MIN">
+<option value="yes"> YES</option>
+<option value="no"> NO</option>
+</field>
+</fieldset>
+</fields>
+</config>
+</extension>
