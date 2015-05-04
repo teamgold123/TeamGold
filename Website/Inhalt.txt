@@ -1,0 +1,17 @@
+- Hintergrund (akt. Film)
+
+- Banner
+
+- Menüleiste
+	- Kinoprogramm
+	- Preise (Einzelkarte, Gruppenpreise, Treuekarte, Snacks & Drinks, ...)
+	- Veranstalltungen
+	- FAQ
+	- Impressum
+	- Über uns ( Größe, Beamer, Gründung, ...)
+
+- Werbebanner (Film -> Laufbild)
+
+- Produktwerbung (Pepsi, Popcron, Eis, ...)
+
+- 
